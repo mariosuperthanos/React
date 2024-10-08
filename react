@@ -1,0 +1,80 @@
+import React, { Component } from 'react';
+
+//InsertHTML in react:
+// class Hello extends Component {
+//   // render function is available because of ‘extends Component’
+//   render() {
+//     return(
+//       <div className='f1 tc'>
+//         <h1>{this.props.greeting}</h1> // It accesses the spread property
+//       </div>
+//     );
+//   }
+// }
+// const root = createRoot(document.getElementById('root'));
+// // root is the place where the DOM code will be inserted
+// root.render(
+//   <React.StrictMode>  // enables checks and warnings in development to identify bugs
+//     {/* <App /> */}
+//     <Hello greeting={'Hello React Ninja'}/> // It creates a new spread property 
+//   </React.StrictMode>
+// ); // I can also import css to the files that applies to Hello JSX 
+
+
+// const Card = ({ name, email, id }) => { // I destructured the object props
+//   return (
+//     <div className='bg-light-green dib br3 pa3 ma2 grow bw2 shadow-5'> // some CSS
+//       <img alt='photo' src={`https://robohash.org/${id}?200x200`}/> // the API that generates a random photo based on href
+//       <div>
+//         <h2>{name}</h2>
+//         <p>{email}</p>
+//       </div>
+//     </div>
+//   );
+// }
+
+// const root = createRoot(document.getElementById('root'));
+// root.render(
+//   <React.StrictMode>
+//     {/* <App /> */}
+//     <div>
+//       // the data from another module with objects
+//       <Card id={robots[0].id} name={robots[0].name} email={robots[0].email}/>
+//       <Card id={robots[1].id} name={robots[1].name} email={robots[1].email}/>
+//       <Card id={robots[2].id} name={robots[2].name} email={robots[2].email}/>
+//     </div>
+//   </React.StrictMode>
+// );
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
